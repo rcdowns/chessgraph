@@ -1,0 +1,51 @@
+.text-align-center {
+    text-align: center;
+}
+
+#myBoard {
+    overflow: auto;
+}
+
+.highlight-white {
+    box-shadow: inset 0 0 99999px rgba(255, 0, 0, 1) !important;
+}
+
+.highlight-black {
+    box-shadow: inset 0 0 99999px rgba(0, 0, 255, 1) !important;
+}
+
+.highlight-hint {
+    box-shadow: inset 0 0 3px 3px red;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.no-outline:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fill-to-parent {
+    height: 100%;
+    width: 100%;
+}
+
+.attack-count-text {
+    top: 2px;
+    right: 2px;
+}
+
+.black-3c85d {
+    background-color: gray !important;
+}
+
+.white-1e1d7 {
+    background-color: white !important;
+}
